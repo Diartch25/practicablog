@@ -1,0 +1,33 @@
+header{
+	background: $color1;
+	overflow: hidden;
+	padding: 2px 0 122px 0;
+}
+
+.content{
+	padding:0 10%;
+	background: $white;
+	div{
+		box-sizing: border-box;
+	}
+}
+
+.articles{
+	background: $white;
+	display: inline-block;
+	float: left;
+  	padding: 29px 4%;
+  	margin: -110px 0;
+  	width: 60%;
+}
+
+.subinfo{
+	display: inline-block;
+  	float: right;
+  	width: 40%;
+}
+
+footer{
+	width: 100%;
+	margin: 381px 6%;
+}
