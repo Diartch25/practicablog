@@ -3,12 +3,14 @@
 	li{
 		float: left;
 		display: inline;
-		margin: 0 1%;
-  		font-size: 16px;
-  		padding: 5px 0;
-		background-color: $color3;
+		margin: 17px 1% 21px;
 	}
 	a{
 		color: $white;
+		font-size: 18px;
+  		padding: 9px 7px;
+		&:hover{
+			background-color: $color3;
+		}
 	}
 }

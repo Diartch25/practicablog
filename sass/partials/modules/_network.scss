@@ -1,0 +1,41 @@
+.network{
+	padding: 36px 91px;
+  	margin-bottom: 20px;
+
+	h2{
+		font-size: 18px;
+		display: inline;
+
+	}
+	p{
+		display: inline;
+	}
+}
+
+.head-network{
+	color: $white;
+}
+
+.foot-network{
+	color: $nav-menu;
+}
+
+.facebook, .twitter{
+	box-sizing: border-box;
+	padding: 14px;
+	@extend %text-hidden;
+	a{
+		text-align: center;
+		color: transparent;
+	}
+	
+}
+
+.facebook{
+
+	background: url(../img/facebook.png)no-repeat center;
+}
+
+.twitter{
+	background: url(../img/twitter.png)no-repeat center;
+}
